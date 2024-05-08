@@ -80,17 +80,50 @@
   gap: 32px;
   opacity: 0px;
 }
-
-.image {
-  position: relative;
-  width: 100%;
-  /* Makes the image fully occupy the width of its container */
-  height: auto;
-  left: 4px;
-  /* Keeps the aspect ratio of the image */
-  display: block;
-  /* Removes bottom margin/gap */
+.App {
+  position: absolute;
+  width: 712px;
+  height: 393.19px;
+  background: linear-gradient(
+    222.94deg,
+    #051a91 -4.31%,
+    #061c93 14.41%,
+    #2284f1 81.88%,
+    #1f80eb 103.81%
+  );
+  border-radius: 42.5075px;
 }
+.small-box {
+  width: 19.84px;
+  height: 28.34px;
+  position: absolute;
+  top: 34.01px;
+  left: 34.08px;
+  background-color: #ffffff;
+}
+.speaker {
+  position: absolute;
+  width: 25.5px;
+  height: 24.85px;
+  top: 34.01px;
+  left: 643.99px;
+  background-color: #ffffff;
+}
+.content-box {
+  width: 313px;
+  height: 46px;
+  position: absolute;
+  top: 174.28px;
+  left: 199.79px;
+  font-family: "Lato", sans-serif;
+  font-size: 38.26px;
+  font-weight: 700;
+  line-height: 45.91px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
 
 .frame {
   position: relative;

@@ -1,7 +1,7 @@
 import './App.css';
 
 import ReactDOM from 'react-dom';
-import Accordion from './Accordian';  
+import Accordion from './Accordian';
 
 import logo from './assets/logo.png';
 import full from './assets/full.png';
@@ -14,9 +14,9 @@ function App() {
     <div class="parent-of-nav">
       <nav class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <img className='logo' src={logo} alt='logo' />
+          <img className='logo' src={logo} alt='logo' />
 
-         
+
           <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
             <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
               <li>
@@ -71,12 +71,12 @@ function App() {
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
               </svg>
               <span
-  className="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400"
-  
->
-  Relation and Function
-</span>
- </div>
+                className="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400"
+
+              >
+                Relation and Function
+              </span>
+            </div>
           </li>
         </ol>
       </nav>
@@ -106,8 +106,11 @@ function App() {
 
 
       <div className='box'>
-        <img className='image' src={full} alt='Component Image' />
-
+        <div className="App">
+          <div className="small-box"></div>
+          <div className="speaker"></div>
+          <div className="content-box">9 + 6 + 7x - 2x - 3</div>
+        </div>
         <img className='frame' src={frame} alt='frame' />
 
       </div>
