@@ -1,0 +1,15 @@
+#accordion-color{
+    position: relative;  /* Required to properly apply 'top' and 'left' properties */
+    top: 1000px;          /* Moves the accordion down from its original position */
+    left: 130px;         /* Moves the accordion to the right from its original position */
+    gap: 320px;  
+    width: 848px;    
+    cursor: pointer;
+    align-items: center;
+    justify-content: start;
+    color: #fff; /* Adjust color based on your design */
+    border: 1px solid;
+    border-image-source: linear-gradient(90.26deg, #217EEC -1.17%, #082299 102.11%);
+    border-image-slice: 1;
+  }
+    
