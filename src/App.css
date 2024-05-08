@@ -71,17 +71,13 @@
   -webkit-text-fill-color: transparent;
   /* Needed for Safari */
 }
-.box {
+
+
+.App {
   position: absolute;
-  width: 712px;
-  height: 485.19 px;
   top: 300px;
   left: 364px;
   gap: 32px;
-  opacity: 0px;
-}
-.App {
-  position: absolute;
   width: 712px;
   height: 393.19px;
   background: linear-gradient(
@@ -124,8 +120,8 @@
 
 .frame {
   position: relative;
-  top: 405px;
-  left: 40px
+  top: 590px;
+  left: 364px;
 }
 
 .hyggex {

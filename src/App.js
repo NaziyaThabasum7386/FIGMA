@@ -1,6 +1,4 @@
 import './App.css';
-
-import ReactDOM from 'react-dom';
 import Accordion from './Accordian';
 import sound from './assets/sound.png';
 import logo from './assets/logo.png';
@@ -103,18 +101,16 @@ function App() {
         </ul>
       </div>
       <div className='title'>Relations and Functions ( Mathematics )</div>
-
-
-      <div className='box'>
+     
         <div className="App">
           <div><img className='small-box' src={bulb} alt='bulb' />
-</div>
+          </div>
           <div> <img className='speaker' src={sound} alt='sound' /></div>
           <div className="content-box">9 + 6 + 7x - 2x - 3</div>
         </div>
         <img className='frame' src={frame} alt='frame' />
 
-      </div>
+     
 
       <div><img className='hyggex' src={hyggex} alt='hyggex' />
         <div>
