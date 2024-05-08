@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import Accordion from './Accordian';  
 
 import logo from './assets/logo.png';
-import compImage from './assets/Comp.png';
+import full from './assets/full.png';
 import frame from './assets/Frame.png';
 import hyggex from './assets/hyggex.png';
 import plus from './assets/plus.png';
@@ -106,7 +106,7 @@ function App() {
 
 
       <div className='box'>
-        <img className='image' src={compImage} alt='Component Image' />
+        <img className='image' src={full} alt='Component Image' />
 
         <img className='frame' src={frame} alt='frame' />
 
