@@ -94,12 +94,10 @@
   border-radius: 42.5075px;
 }
 .small-box {
-  width: 19.84px;
   height: 28.34px;
   position: absolute;
   top: 34.01px;
   left: 34.08px;
-  background-color: #ffffff;
 }
 .speaker {
   position: absolute;
@@ -107,7 +105,6 @@
   height: 24.85px;
   top: 34.01px;
   left: 643.99px;
-  background-color: #ffffff;
 }
 .content-box {
   width: 313px;
@@ -127,7 +124,7 @@
 
 .frame {
   position: relative;
-  top: 25px;
+  top: 405px;
   left: 40px
 }
 

@@ -2,9 +2,9 @@ import './App.css';
 
 import ReactDOM from 'react-dom';
 import Accordion from './Accordian';
-
+import sound from './assets/sound.png';
 import logo from './assets/logo.png';
-import full from './assets/full.png';
+import bulb from './assets/bulb.png';
 import frame from './assets/Frame.png';
 import hyggex from './assets/hyggex.png';
 import plus from './assets/plus.png';
@@ -107,8 +107,9 @@ function App() {
 
       <div className='box'>
         <div className="App">
-          <div className="small-box"></div>
-          <div className="speaker"></div>
+          <div><img className='small-box' src={bulb} alt='bulb' />
+</div>
+          <div> <img className='speaker' src={sound} alt='sound' /></div>
           <div className="content-box">9 + 6 + 7x - 2x - 3</div>
         </div>
         <img className='frame' src={frame} alt='frame' />
