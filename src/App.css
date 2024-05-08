@@ -120,13 +120,13 @@
 
 .frame {
   position: relative;
-  top: 590px;
-  left: 404px;
+  top: 610px;
+  left: 399px;
 }
 
 .hyggex {
   position: absolute;
-  Top: 755px;
+  Top: 835px;
   Left: 106px;
 }
 
@@ -142,7 +142,7 @@
 
 .plus {
   position: absolute;
-  Top: 800px;
+  Top: 865px;
   left: 1039px;
   width: 60px;
   height: 60px;
@@ -154,7 +154,7 @@
 
 .text {
   position: absolute;
-  Top: 810px;
+  Top: 880px;
   left: 1100px;
   font-family: Montserrat;
   font-size: 28px;
