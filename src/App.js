@@ -113,9 +113,9 @@ function App() {
      
 
       <div><img className='hyggex' src={hyggex} alt='hyggex' />
-        <div>
+        
           <img className='plus' src={plus} alt='plus' />
-          <div className='text'>Create Flashcard</div> </div>
+          <div className='text'>Create Flashcard</div> 
 
         <div className='text1'>FAQ</div>
 
